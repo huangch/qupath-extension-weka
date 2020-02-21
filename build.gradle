@@ -1,0 +1,8 @@
+ext.moduleName = 'qupath.extension.weka'
+
+description = 'qupath-extension-weka'
+
+configurations {
+	implementation.extendsFrom weka
+	implementation.extendsFrom controlsfx
+}
